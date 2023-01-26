@@ -1,0 +1,112 @@
+body {
+  background-image: url("images/nature1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1500px 900px;
+
+}
+
+.game {
+  background-color: rgb(255, 255, 255, 0.5);
+  background-size: 50%;
+  height: 190px;
+  width: 350px;
+  position: fixed;
+  top: 10%;
+  left: 35%;
+  border-radius: 5%;
+}
+
+.birds {
+  background-color: rgb(255, 255, 255, 0.5);
+  background-size: 50%;
+  height: 280px;
+  width: 350px;
+  position: fixed;
+  top: 50%;
+  left: 35%;
+  border-radius: 5%;
+
+
+}
+
+table {
+  height: 250px;
+  width: 350px;
+  position: fixed;
+  top: 50%;
+  left: 35%;
+
+
+}
+
+td h3 {
+  border: 0;
+  margin: 0 0 0px;
+  padding: 0px;
+  text-align: center;
+  color: rgb(15, 28, 15);
+
+}
+
+
+.form {
+  position: relative;
+
+  z-index: 1;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 0 45px;
+  text-align: center;
+}
+
+.form input,
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.form button {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 5px;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  background: #afd804;
+  font-family: monospace;
+  text-transform: uppercase;
+  transition: background-color 1s;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: #56d804;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+
+}
+
+.form .register-form {
+  display: none;
+}
