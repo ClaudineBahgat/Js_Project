@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="game">
+        <div class="form">
+            <form class="login-form" action="./game.html" id="loginForm">
+                <br />
+                <input type="text" name="username" placeholder="Your Name" id="name" class="form-control"
+                    title="who are you champion " required />
+                <select name="levels" id="gameLevels" class="form-control" title="pick your level" required>
+                    <option value="" disabled selected hidden>Choose your level</option>
+                    <option value="level1">level 1</option>
+                </select>
+                <button type="submit" value="submit" id="sub" form="loginForm">
+                    submit
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="birds">
+        <table>
+            <tr>
+                <td style="text-align: center; margin-left: 100px">
+                    <h3>Shooting Points:</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/white.gif" style="
+                position: relative;
+                top: 0px;
+                left: 25px;
+                width: 95px;
+                left: 100px;
+              " />
+                </td>
+                <td style="
+              font-family: monospace;
+              font-size: x-large;
+              color: rgb(49, 70, 17);
+            ">
+                    +5 Points
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td>
+                    <img src="images/blue.gif" style="
+                position: relative;
+                top: 2px;
+                left: 45px;
+                width: 70px;
+                left: 100px;
+              " />
+                </td>
+                <td style="
+              font-family: monospace;
+              font-size: x-large;
+              color: rgb(12, 101, 244);
+            ">
+                    -10 Points
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td>
+                    <img src="images/black.gif" style="position: relative; top: 10px; left: 50px; width: 150px" />
+                </td>
+                <td style="
+              font-family: monospace;
+              font-size: x-large;
+              color: rgb(255, 98, 0);
+              left: 0px;
+            ">
+                    +10 Points
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
