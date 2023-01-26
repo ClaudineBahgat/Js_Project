@@ -33,6 +33,7 @@ margin: 10px 20px;
 border-radius: 5px;
 font-family: monospace;
 font-size: 30px;
+
 }
 .score h2:last-child{
 margin: 10px 20px;
@@ -340,3 +341,4 @@ margin: 10px 20px;
   text-transform: uppercase;
   transition: background-color 1s;
 } 
+/*_______________________________________________________*\
